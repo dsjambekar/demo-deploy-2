@@ -3,6 +3,7 @@ var express = require('express');
 var path = require('path');
 var favicon = require('serve-favicon');
 var logger = require('morgan');
+require('dotenv').load();
 
 // Set up mongoose connection
 const mongoose = require('mongoose');
